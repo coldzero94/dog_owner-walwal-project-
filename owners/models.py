@@ -15,4 +15,4 @@ class dogs(models.Model):
     owner = models.ForeignKey('Owner', on_delete=models.CASCADE)
 
     class Meta:
-        db_table = 'dongs'
+        db_table = 'dogs'
